@@ -140,7 +140,26 @@ section .main_btn i{
 section .main_btn:hover i{
     transform: translateX(7px);
 }
+.main {
+    display: flex;
+    align-items: center;        /* vertically center */
+    justify-content: space-between; /* space between text & image */
+    padding: 50px;
+}
 
+.men_text {
+    max-width: 50%;
+}
+
+.men_text h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main_image img {
+    width: 500px;
+    max-width: 100%;
+}
 
 
 /*About*/
